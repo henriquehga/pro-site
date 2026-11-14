@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#4d159d">
+<title>Pro Simulador — Acesso Digital</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f3fa;
+  color: #171321;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  padding: 28px 22px 82px;
+  color: white;
+  background: linear-gradient(125deg, #450078, #8116c6 56%, #315cf0);
+}
+
+nav, .intro {
+  max-width: 760px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+nav span {
+  font-size: 13px;
+  border: 1px solid #ffffff77;
+  border-radius: 24px;
+  padding: 10px 14px;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 58px;
+}
+
+.eyebrow {
+  display: inline-block;
+  background: white;
+  color: #5c149c;
+  border-radius: 30px;
+  padding: 10px 18px;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: clamp(35px, 7vw, 54px);
+  line-height: 1.06;
+  margin: 30px auto 20px;
+  max-width: 650px;
+}
+
+.intro p {
+  font-size: 17px;
+  line-height: 1.55;
+  color: #f0e4ff;
+  max-width: 600px;
+  margin: auto;
+}
+
+main {
+  max-width: 700px;
+  margin: -48px auto 45px;
+  padding: 0 18px;
+}
+
+.card {
+  background: white;
+  border-radius: 28px;
+  padding: 30px 28px;
+  box-shadow: 0 16px 45px #34105b1a;
+}
+
+.brandrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6713ac;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.tag {
+  font-size: 11px;
+  background: #f2e6fb;
+  border-radius: 20px;
+  padding: 9px 13px;
+}
+
+h2 {
+  font-size: 27px;
+  margin: 36px 0 12px;
+}
+
+.desc {
+  color: #777180;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.old {
+  color: #9a95a1;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.price {
+  font-size: clamp(54px, 12vw, 78px);
+  font-weight: 900;
+  color: #7015bd;
+  margin: 4px 0;
+}
+
+.access {
+  color: #167b58;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.pixinfo {
+  margin-top: 26px;
+  border: 1px solid #e7e1eb;
+  border-radius: 16px;
+  background: #faf9fb;
+  padding: 17px;
+  font-weight: 700;
+}
+
+button {
+  width: 100%;
+  margin-top: 22px;
+  border: 0;
+  border-radius: 50px;
+  padding: 20px;
+  background: linear-gradient(100deg, #ad52dc, #7d35c8);
+  color: white;
+  font-size: 19px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.checkout {
+  display: none;
+  margin-top: 22px;
+  padding: 18px;
+  border-radius: 16px;
+  background: #f7f2fc;
+  border: 1px solid #e4d7f0;
+}
+
+.checkout h3 {
+  margin: 0 0 8px;
+}
+
+.checkout p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5e5867;
+}
+
+.warning {
+  background: #fff5d9;
+  color: #654b12;
+  border-radius: 12px;
+  padding: 13px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.small {
+  text-align: center;
+  color: #8c8792;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 18px 0 0;
+}
+
+footer {
+  text-align: center;
+  color: #817b89;
+  font-size: 12px;
+  padding: 0 20px 28px;
+}
+
+@media(max-width:520px) {
+  .card {
+    padding: 25px 20px;
+  }
+
+  .intro {
+    padding-top: 42px;
+  }
+
+  .brandrow {
+    font-size: 24px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+
+<nav>
+  <div>PRO SIMULADOR</div>
+  <span>Compra única no Pix</span>
+</nav>
+
+<div class="intro">
+  <div class="eyebrow">ACESSO DIGITAL</div>
+
+  <h1>Conheça o simulador.<br>Aprenda no seu ritmo.</h1>
+
+  <p>
+    Uma experiência demonstrativa e independente
+    para explorar conceitos e cenários financeiros fictícios.
+  </p>
+</div>
+
+</header>
+
+<main>
+
+<section class="card">
+
+<div class="brandrow">
+  <span>Pro Simulador</span>
+  <span class="tag">ACESSO DIGITAL</span>
+</div>
+
+<h2>Simulador financeiro</h2>
+
+<p class="desc">
+  Ferramenta independente para fins educativos.
+  Não é banco, não oferece conta bancária, crédito
+  ou movimentação de dinheiro e não tem vínculo
+  com instituições financeiras.
+</p>
+
+<div class="old">Preço promocional</div>
+
+<div class="price">R$ 7,99</div>
+
+<div class="access">
+  Pagamento único · acesso conforme condições informadas
+</div>
+
+<div class="pixinfo">
+  ◆ Pagamento via Pix com confirmação pelo provedor
+</div>
+
+<button id="pay" onclick="showPix()">
+  Gerar Pix
+</button>
+
+<div class="checkout" id="checkout">
+
+<h3>Pagamento Pix</h3>
+
+<div class="warning">
+  <b>Integração ainda não configurada.</b><br>
+  Esta versão é uma prévia visual.
+  Ela não cria cobrança, QR Code válido
+  nem confirma pagamentos.
+</div>
+
+<p>
+  Para ativar, conecte um provedor de pagamentos
+  usando credenciais guardadas no servidor.
+  O servidor deve criar uma cobrança Pix dinâmica,
+  mostrar o QR Code e o código Copia e Cola
+  retornados pelo provedor e liberar o produto
+  somente após confirmação autenticada do pagamento.
+</p>
+
+</div>
+
+<p class="small">
+  Antes de publicar, descreva exatamente o conteúdo vendido,
+  as condições de acesso, o suporte e a política de reembolso.
+</p>
+
+</section>
+
+</main>
+
+<footer>
+  Pro Simulador é independente e não representa
+  serviço oficial de banco ou instituição financeira.
+</footer>
+
+<script>
+function showPix() {
+  const panel = document.getElementById('checkout');
+
+  panel.style.display = 'block';
+
+  panel.scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  });
+}
+</script>
+
+</body>
+</html>
